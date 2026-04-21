@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">SaaS Dashboard Preview</title>
+  <desc id="desc">Stylized dashboard interface mockup.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091413" />
+      <stop offset="100%" stop-color="#285A48" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="560" fill="url(#bg)" />
+  <rect x="88" y="76" width="784" height="408" rx="28" fill="#B0E4CC" fill-opacity="0.08" stroke="#B0E4CC" stroke-opacity="0.35" />
+  <rect x="120" y="116" width="180" height="20" rx="10" fill="#B0E4CC" fill-opacity="0.75" />
+  <rect x="120" y="154" width="280" height="14" rx="7" fill="#B0E4CC" fill-opacity="0.42" />
+  <rect x="120" y="210" width="220" height="230" rx="18" fill="#408A71" fill-opacity="0.38" />
+  <rect x="360" y="210" width="220" height="230" rx="18" fill="#408A71" fill-opacity="0.2" />
+  <rect x="600" y="210" width="220" height="230" rx="18" fill="#408A71" fill-opacity="0.48" />
+  <path d="M145 360 C195 285 230 320 280 246 C315 195 348 230 388 196" stroke="#B0E4CC" stroke-width="8" fill="none" stroke-linecap="round" />
+  <text x="120" y="448" fill="#B0E4CC" font-family="Space Grotesk, sans-serif" font-size="28" letter-spacing="2">MNIT | SaaS GROWTH</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091413"/>
+      <stop offset="55%" stop-color="#285A48"/>
+      <stop offset="100%" stop-color="#408A71"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="170" cy="110" r="170" fill="#B0E4CC" opacity="0.15"/>
+  <circle cx="1040" cy="580" r="240" fill="#B0E4CC" opacity="0.1"/>
+  <rect x="88" y="82" width="1024" height="466" rx="30" fill="#091413" fill-opacity="0.38" stroke="#B0E4CC" stroke-opacity="0.35"/>
+  <text x="140" y="235" fill="#B0E4CC" font-size="72" font-family="Space Grotesk, Arial, sans-serif" letter-spacing="6">MNIT</text>
+  <text x="140" y="312" fill="#B0E4CC" font-size="40" font-family="Sora, Arial, sans-serif">Web Development • UI/UX • SEO • Hosting</text>
+  <text x="140" y="386" fill="#B0E4CC" font-size="30" font-family="Sora, Arial, sans-serif" opacity="0.9">Conversion-focused portfolio and client growth websites.</text>
+</svg>

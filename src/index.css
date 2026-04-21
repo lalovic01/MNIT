@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --ink: #091413;
+  --pine: #285A48;
+  --mint: #408A71;
+  --foam: #B0E4CC;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Sora', sans-serif;
+  background: radial-gradient(circle at 10% 0%, rgba(64, 138, 113, 0.22), transparent 36%),
+    radial-gradient(circle at 95% 25%, rgba(176, 228, 204, 0.18), transparent 43%),
+    radial-gradient(circle at 70% 95%, rgba(40, 90, 72, 0.35), transparent 40%),
+    #091413;
+  color: #B0E4CC;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(176, 228, 204, 0.35);
+  color: #091413;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes orbit-border-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes aurora-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.aurora-word {
+  color: #B0E4CC;
+  text-shadow: 0 0 10px rgba(176, 228, 204, 0.2);
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .aurora-word {
+    background-image: linear-gradient(120deg, #B0E4CC 0%, #7fc9ad 28%, #408A71 52%, #B0E4CC 76%, #d4f6e5 100%);
+    background-size: 220% 220%;
+    background-position: 0% 50%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: aurora-flow 7.4s ease-in-out infinite;
+    animation-delay: var(--aurora-delay, 0s);
+  }
+}
+
+@keyframes signal-dot-core {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.86;
+    filter: brightness(1);
+    box-shadow: 0 0 6px rgba(64, 138, 113, 0.28);
+  }
+
+  50% {
+    transform: scale(1.12);
+    opacity: 1;
+    filter: brightness(1.12);
+    box-shadow: 0 0 10px rgba(176, 228, 204, 0.42);
+  }
+}
+
+.signal-dot {
+  display: inline-block;
+  transform-origin: center;
+  will-change: transform, opacity, filter;
+  animation: signal-dot-core 2.6s ease-in-out infinite;
+  animation-delay: var(--dot-delay, 0s);
+  box-shadow: 0 0 6px rgba(64, 138, 113, 0.3);
+}
+
+.process-orbit-card {
+  isolation: isolate;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.process-orbit-line {
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.process-orbit-line::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 0deg,
+    rgba(176, 228, 204, 0) 0deg,
+    rgba(176, 228, 204, 0) 238deg,
+    rgba(176, 228, 204, 0.2) 262deg,
+    rgba(176, 228, 204, 1) 310deg,
+    rgba(176, 228, 204, 0.28) 346deg,
+    rgba(176, 228, 204, 0) 360deg
+  );
+  animation: orbit-border-spin 1.35s linear infinite;
+}
+
+.process-orbit-line::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 0deg,
+    rgba(176, 228, 204, 0) 0deg,
+    rgba(176, 228, 204, 0) 238deg,
+    rgba(176, 228, 204, 0.35) 266deg,
+    rgba(176, 228, 204, 0.8) 310deg,
+    rgba(176, 228, 204, 0.35) 344deg,
+    rgba(176, 228, 204, 0) 360deg
+  );
+  animation: orbit-border-spin 1.35s linear infinite;
+  filter: blur(6px);
+  opacity: 0.95;
+}
+
+.process-orbit-line {
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.process-orbit-card:hover .process-orbit-line {
+  opacity: 1;
+}
+
+.process-orbit-card:hover {
+  border-color: rgba(176, 228, 204, 0.6);
+  box-shadow:
+    0 0 0 1px rgba(176, 228, 204, 0.22) inset,
+    0 0 18px rgba(176, 228, 204, 0.16),
+    0 0 32px rgba(64, 138, 113, 0.22);
+}

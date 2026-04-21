@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MNIT builds modern conversion-focused websites with web development, UI/UX design, SEO optimization, redesign and hosting deployment."
+    />
+    <meta property="og:title" content="MNIT | Web Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Conversion-focused web development, UI/UX design, SEO and deployment services by MNIT."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mnit.dev/" />
+    <meta property="og:image" content="https://mnit.dev/og-mnit.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#091413" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>MNIT | Web Developer Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      ;(function () {
+        const redirect = window.location.search.match(/\?\/((?:.|\n)*)/)
+        if (redirect) {
+          const route = redirect[1].replace(/~and~/g, '&')
+          window.history.replaceState(null, '', window.location.pathname + route + window.location.hash)
+        }
+      })()
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

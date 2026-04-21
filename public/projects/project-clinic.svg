@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Clinic Booking Preview</title>
+  <desc id="desc">Health platform interface mockup with cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#285A48" />
+      <stop offset="100%" stop-color="#091413" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="560" fill="url(#bg)" />
+  <rect x="70" y="70" width="820" height="420" rx="30" fill="#B0E4CC" fill-opacity="0.08" stroke="#B0E4CC" stroke-opacity="0.4" />
+  <rect x="112" y="118" width="300" height="24" rx="12" fill="#B0E4CC" fill-opacity="0.72" />
+  <rect x="112" y="160" width="240" height="12" rx="6" fill="#B0E4CC" fill-opacity="0.4" />
+  <rect x="112" y="206" width="228" height="238" rx="18" fill="#408A71" fill-opacity="0.3" />
+  <rect x="360" y="206" width="228" height="238" rx="18" fill="#408A71" fill-opacity="0.2" />
+  <rect x="608" y="206" width="228" height="238" rx="18" fill="#408A71" fill-opacity="0.42" />
+  <circle cx="724" cy="174" r="22" fill="#B0E4CC" fill-opacity="0.72" />
+  <path d="M724 162v24M712 174h24" stroke="#091413" stroke-width="6" stroke-linecap="round" />
+  <text x="112" y="454" fill="#B0E4CC" font-family="Space Grotesk, sans-serif" font-size="28" letter-spacing="2">MNIT | CLINIC BOOKING</text>
+</svg>
