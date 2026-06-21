@@ -23,23 +23,26 @@ export default function ServicesPage() {
         {content.services.items.map((service, index) => (
           <MotionArticle
             key={service.title}
-            className="rounded-3xl border border-foam/20 bg-ink/55 p-6"
-            whileHover={{ y: -7, borderColor: 'rgba(176,228,204,0.55)' }}
-            initial={{ opacity: 0, y: 18 }}
+            className="process-orbit-card group relative overflow-hidden rounded-2xl border border-foam/20 bg-ink/50 p-6"
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 0.45, delay: index * 0.06 }}
+            viewport={{ once: true, amount: 0.35 }}
+            transition={{ delay: index * 0.12, duration: 0.5 }}
+            whileHover={{ y: -6 }}
           >
-            <h2 className="font-title text-2xl uppercase text-foam">{service.title}</h2>
-            <p className="mt-3 text-sm leading-relaxed text-foam/80">{service.description}</p>
-            <ul className="mt-5 space-y-2">
-              {service.outcomes.map((outcome) => (
-                <li key={outcome} className="flex items-start gap-2 text-sm text-foam/85">
-                  <span className="mt-1.5 h-2 w-2 rounded-full bg-mint" />
-                  <span>{outcome}</span>
-                </li>
-              ))}
-            </ul>
+            <span aria-hidden="true" className="process-orbit-line" />
+            <div className="relative z-10">
+              <h2 className="font-title text-2xl uppercase text-foam">{service.title}</h2>
+              <p className="mt-3 text-sm leading-relaxed text-foam/80">{service.description}</p>
+              <ul className="mt-5 space-y-2">
+                {service.outcomes.map((outcome) => (
+                  <li key={outcome} className="flex items-start gap-2 text-sm text-foam/85">
+                    <span className="mt-1.5 h-2 w-2 rounded-full bg-mint" />
+                    <span>{outcome}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </MotionArticle>
         ))}
       </AnimatedSection>
