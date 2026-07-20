@@ -30,13 +30,14 @@ export default function PortfolioPage() {
             transition={{ duration: 0.45, delay: index * 0.05 }}
             whileHover={{ y: -8 }}
           >
-            <div className="overflow-hidden border-b border-foam/15">
+            <div className="relative overflow-hidden border-b border-foam/15 bg-ink/70">
               <img
                 src={project.image}
                 alt={project.name}
                 loading="lazy"
-                className="h-44 w-full object-cover transition duration-500 group-hover:scale-105"
+                className="h-52 w-full object-cover object-center transition duration-700 group-hover:scale-110"
               />
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/35 via-transparent to-transparent" />
             </div>
             <div className="space-y-4 p-5">
               <h2 className="font-title text-xl uppercase text-foam">{project.name}</h2>
@@ -53,10 +54,12 @@ export default function PortfolioPage() {
               </ul>
               <a
                 href={project.link}
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex text-xs font-semibold uppercase tracking-[0.12em] text-mint transition hover:text-foam"
                 aria-label={`${project.name} demo`}
               >
-                Demo Placeholder →
+                Open live site →
               </a>
             </div>
           </MotionArticle>

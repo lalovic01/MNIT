@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="hs-bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#166534"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="40" fill="url(#hs-bg)"/>
+  <rect x="132" y="104" width="936" height="592" rx="30" fill="#020617" fill-opacity="0.5"/>
+  <rect x="168" y="142" width="864" height="516" rx="22" fill="#03130d"/>
+  <rect x="168" y="142" width="864" height="56" rx="22" fill="#12301f"/>
+  <circle cx="206" cy="170" r="8" fill="#ef4444"/>
+  <circle cx="232" cy="170" r="8" fill="#f59e0b"/>
+  <circle cx="258" cy="170" r="8" fill="#22c55e"/>
+  <text x="220" y="292" fill="#86efac" font-family="Arial, sans-serif" font-size="48" font-weight="700">Hacker Sprint</text>
+  <rect x="220" y="326" width="430" height="16" rx="8" fill="#bbf7d0" fill-opacity="0.25"/>
+  <rect x="220" y="356" width="370" height="16" rx="8" fill="#bbf7d0" fill-opacity="0.16"/>
+  <rect x="220" y="414" width="184" height="44" rx="22" fill="#22c55e"/>
+  <rect x="680" y="238" width="300" height="350" rx="20" fill="#052e16" stroke="#22c55e" stroke-width="2"/>
+  <rect x="708" y="274" width="242" height="14" rx="7" fill="#86efac"/>
+  <rect x="708" y="304" width="208" height="14" rx="7" fill="#86efac" fill-opacity="0.6"/>
+  <rect x="708" y="334" width="230" height="14" rx="7" fill="#86efac" fill-opacity="0.4"/>
+  <rect x="708" y="416" width="152" height="36" rx="18" fill="#4ade80"/>
+  <rect x="874" y="416" width="76" height="36" rx="18" fill="#14532d"/>
+  <text x="715" y="441" fill="#02130a" font-family="Arial, sans-serif" font-size="17" font-weight="700">START</text>
+  <text x="220" y="498" fill="#d1fae5" font-family="Arial, sans-serif" font-size="20">typing game with score and streak multipliers</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="vv-bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="40" fill="url(#vv-bg)"/>
+  <rect x="132" y="104" width="936" height="592" rx="30" fill="#020617" fill-opacity="0.42"/>
+  <rect x="168" y="142" width="864" height="516" rx="22" fill="#0b1220"/>
+  <rect x="168" y="142" width="864" height="56" rx="22" fill="#1e293b"/>
+  <circle cx="206" cy="170" r="8" fill="#ef4444"/>
+  <circle cx="232" cy="170" r="8" fill="#f59e0b"/>
+  <circle cx="258" cy="170" r="8" fill="#22c55e"/>
+  <text x="224" y="294" fill="#e0f2fe" font-family="Arial, sans-serif" font-size="46" font-weight="700">Vodo Ventil</text>
+  <rect x="224" y="324" width="380" height="16" rx="8" fill="#e0f2fe" fill-opacity="0.22"/>
+  <rect x="224" y="352" width="318" height="16" rx="8" fill="#e0f2fe" fill-opacity="0.16"/>
+  <rect x="224" y="406" width="210" height="44" rx="22" fill="#22d3ee"/>
+  <rect x="700" y="234" width="280" height="338" rx="20" fill="#e0f2fe" fill-opacity="0.95"/>
+  <path d="M768 378H912" stroke="#0f172a" stroke-width="26" stroke-linecap="round"/>
+  <path d="M912 378C947 378 976 349 976 314C976 279 947 250 912 250" stroke="#0f172a" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="912" cy="314" r="34" fill="#0f172a"/>
+  <circle cx="912" cy="314" r="13" fill="#e0f2fe"/>
+  <path d="M844 300C874 261 898 230 898 198C898 171 876 150 849 150C821 150 800 171 800 198C800 230 825 261 844 300Z" fill="#67e8f9"/>
+  <rect x="748" y="468" width="180" height="20" rx="10" fill="#0f172a" fill-opacity="0.45"/>
+  <rect x="748" y="502" width="130" height="14" rx="7" fill="#0f172a" fill-opacity="0.25"/>
+  <text x="224" y="486" fill="#a5f3fc" font-family="Arial, sans-serif" font-size="20">hitne intervencije i servis 24/7</text>
+</svg>
