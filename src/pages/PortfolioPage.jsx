@@ -25,8 +25,7 @@ export default function PortfolioPage() {
             key={project.name}
             className="group overflow-hidden rounded-2xl border border-foam/20 bg-pine/25"
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.45, delay: index * 0.05 }}
             whileHover={{ y: -8 }}
           >
