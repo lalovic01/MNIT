@@ -23,7 +23,7 @@ export default function PortfolioPage() {
         {content.portfolio.projects.map((project, index) => (
           <MotionArticle
             key={project.name}
-            className="group overflow-hidden rounded-2xl border border-foam/20 bg-pine/25"
+            className="group flex h-full min-h-[30rem] flex-col overflow-hidden rounded-2xl border border-foam/20 bg-pine/25 sm:min-h-[31rem] lg:min-h-[33rem]"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.45, delay: index * 0.05 }}
@@ -38,9 +38,9 @@ export default function PortfolioPage() {
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/35 via-transparent to-transparent" />
             </div>
-            <div className="space-y-4 p-5">
+            <div className="flex flex-1 flex-col space-y-4 p-5">
               <h2 className="font-title text-xl uppercase text-foam">{project.name}</h2>
-              <p className="text-sm leading-relaxed text-foam/80">{project.description}</p>
+              <p className="flex-1 text-sm leading-relaxed text-foam/80">{project.description}</p>
               <ul className="flex flex-wrap gap-2">
                 {project.tech.map((tech) => (
                   <li
@@ -55,7 +55,7 @@ export default function PortfolioPage() {
                 href={project.link}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex text-xs font-semibold uppercase tracking-[0.12em] text-mint transition hover:text-foam"
+                className="mt-auto inline-flex text-xs font-semibold uppercase tracking-[0.12em] text-mint transition hover:text-foam"
                 aria-label={`${project.name} demo`}
               >
                 Open live site →

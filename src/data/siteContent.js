@@ -105,7 +105,7 @@ export const siteContent = {
           name: 'Auto Dijagnostika Lazarević',
           description:
             'Professional automotive diagnostics website featuring mobile on-site service, DPF/EGR/AdBlue solutions, and a strong local call-to-action flow.',
-          tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO'],
+          tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO', 'Local SEO', 'Responsive Design'],
           image: `${import.meta.env.BASE_URL}projects/autodijagnostika-lazarevic.svg`,
           link: 'https://autodijagnostikalazarevic.rs/',
         },
@@ -113,7 +113,7 @@ export const siteContent = {
           name: 'Igre Bez Telefona',
           description:
             'Educational WordPress website for parents with ebook content, blog resources, and a warm, family-oriented visual identity.',
-          tech: ['WordPress', 'PHP', 'HTML', 'CSS'],
+          tech: ['WordPress', 'PHP', 'HTML', 'CSS', 'Content Strategy', 'Blog Architecture'],
           image: `${import.meta.env.BASE_URL}projects/igre-bez-telefona.svg`,
           link: 'https://igrebeztelefona.rs/',
         },
@@ -121,7 +121,7 @@ export const siteContent = {
           name: 'Otkup Telefona Pančevo',
           description:
             'Lead-focused phone buyback landing page for Serbia, optimized for fast device valuation, trust building, and frictionless contact.',
-          tech: ['HTML5', 'CSS3', 'JavaScript', 'Local SEO'],
+          tech: ['HTML5', 'CSS3', 'JavaScript', 'Local SEO', 'Conversion Copywriting'],
           image: `${import.meta.env.BASE_URL}projects/otkup-telefona-pancevo.svg`,
           link: 'https://otkuptelefonapancevo.rs/',
         },
@@ -129,7 +129,7 @@ export const siteContent = {
           name: 'Vodo Ventil',
           description:
             'Service website for plumbing interventions and emergency visits, with local SEO structure focused on trust and response speed.',
-          tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO'],
+          tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO', 'Service Pages', 'Conversion UX'],
           image: `${import.meta.env.BASE_URL}projects/vodo-ventil.svg`,
           link: 'https://vodoventil.rs/',
         },
@@ -137,7 +137,7 @@ export const siteContent = {
           name: 'Car Detailing',
           description:
             'Portfolio website for detailing services with premium service presentation, treatment result highlights, and clear booking CTAs.',
-          tech: ['HTML5', 'CSS3', 'JavaScript'],
+          tech: ['React', 'JavaScript', 'Component Architecture', 'SPA Routing'],
           image: `${import.meta.env.BASE_URL}projects/car-diagnostics.svg`,
           link: 'https://lalovic01.github.io/car-detailing/',
         },
@@ -145,7 +145,7 @@ export const siteContent = {
           name: 'Hacker Sprint',
           description:
             'Interactive typing game with score tracking, streak multipliers, and a retro terminal aesthetic for quick play sessions.',
-          tech: ['JavaScript', 'HTML5', 'CSS3', 'Game Logic'],
+          tech: ['JavaScript', 'HTML5', 'CSS3', 'Game Logic', 'State Management', 'Score Tracking'],
           image: `${import.meta.env.BASE_URL}projects/hacker-sprint.svg`,
           link: 'https://lalovic01.github.io/Hacker-Game/',
         },
@@ -320,7 +320,7 @@ export const siteContent = {
           name: 'Auto Dijagnostika Lazarević',
           description:
             'Profesionalni sajt za auto dijagnostiku sa mobilnim dolaskom na adresu, DPF/EGR/AdBlue uslugama i jasnim lokalnim pozivom na akciju.',
-          tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO'],
+          tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO', 'Local SEO', 'Responsive Design'],
           image: `${import.meta.env.BASE_URL}projects/autodijagnostika-lazarevic.svg`,
           link: 'https://autodijagnostikalazarevic.rs/',
         },
@@ -328,7 +328,7 @@ export const siteContent = {
           name: 'Igre Bez Telefona',
           description:
             'Edukativni WordPress sajt za roditelje, sa e-book sadržajem, blogom i toplim, porodičnim vizuelnim identitetom.',
-          tech: ['WordPress', 'PHP', 'HTML', 'CSS'],
+          tech: ['WordPress', 'PHP', 'HTML', 'CSS', 'Content Strategy', 'Blog Architecture'],
           image: `${import.meta.env.BASE_URL}projects/igre-bez-telefona.svg`,
           link: 'https://igrebeztelefona.rs/',
         },
@@ -336,7 +336,7 @@ export const siteContent = {
           name: 'Otkup Telefona Pančevo',
           description:
             'Landing strana za otkup telefona u celoj Srbiji, sa fokusom na brzu procenu, poverenje i jednostavan kontakt proces.',
-          tech: ['HTML5', 'CSS3', 'JavaScript', 'Local SEO'],
+          tech: ['HTML5', 'CSS3', 'JavaScript', 'Local SEO', 'Conversion Copywriting'],
           image: `${import.meta.env.BASE_URL}projects/otkup-telefona-pancevo.svg`,
           link: 'https://otkuptelefonapancevo.rs/',
         },
@@ -344,7 +344,7 @@ export const siteContent = {
           name: 'Vodo Ventil',
           description:
             'Servisni sajt za vodoinstalaterske intervencije, hitne dolaske i lokalni SEO sa naglaskom na poverenje i brzinu.',
-          tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO'],
+          tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO', 'Service Pages', 'Conversion UX'],
           image: `${import.meta.env.BASE_URL}projects/vodo-ventil.svg`,
           link: 'https://vodoventil.rs/',
         },
@@ -352,7 +352,7 @@ export const siteContent = {
           name: 'Car Detailing',
           description:
             'Portfolio sajt za detailing usluge sa premium prikazom usluga, rezultatima tretmana i jasnim CTA koracima za zakazivanje.',
-          tech: ['HTML5', 'CSS3', 'JavaScript'],
+          tech: ['React', 'JavaScript', 'Component Architecture', 'SPA Routing'],
           image: `${import.meta.env.BASE_URL}projects/car-diagnostics.svg`,
           link: 'https://lalovic01.github.io/car-detailing/',
         },
@@ -360,7 +360,7 @@ export const siteContent = {
           name: 'Hacker Sprint',
           description:
             'Interaktivna typing igra sa skorom, streak multiplikatorima i retro terminal estetikom za brze sesije igranja.',
-          tech: ['JavaScript', 'HTML5', 'CSS3', 'Game Logic'],
+          tech: ['JavaScript', 'HTML5', 'CSS3', 'Game Logic', 'State Management', 'Score Tracking'],
           image: `${import.meta.env.BASE_URL}projects/hacker-sprint.svg`,
           link: 'https://lalovic01.github.io/Hacker-Game/',
         },
