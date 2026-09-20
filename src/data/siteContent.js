@@ -95,6 +95,21 @@ export const siteContent = {
           description: 'Reliable deployment pipelines and hosting setup for secure, fast delivery.',
           outcomes: ['Vercel / GitHub deployment', 'Domain and SSL setup', 'Release and rollback readiness'],
         },
+        {
+          title: 'E-commerce Solutions',
+          description: 'Conversion-ready online stores with clear product journeys and frictionless checkout flows.',
+          outcomes: ['Product and category structure', 'Checkout UX optimization', 'Payment and analytics setup'],
+        },
+        {
+          title: 'Content & Conversion Copy',
+          description: 'Clear website messaging that explains your value and gives visitors a reason to take action.',
+          outcomes: ['Offer and message strategy', 'Landing page copy', 'Calls to action that convert'],
+        },
+        {
+          title: 'Maintenance & Analytics',
+          description: 'Ongoing improvements that keep your website secure, measurable, and aligned with business goals.',
+          outcomes: ['Updates and security checks', 'Analytics and event tracking', 'Continuous conversion improvements'],
+        },
       ],
     },
     portfolio: {
@@ -309,6 +324,21 @@ export const siteContent = {
           title: 'Hosting i deployment',
           description: 'Pouzdano postavljanje i puštanje sajta uz sigurnu infrastrukturu.',
           outcomes: ['Vercel / GitHub deployment', 'Domen i SSL podešavanje', 'Spremnost za release i rollback'],
+        },
+        {
+          title: 'E-commerce rešenja',
+          description: 'Online prodavnice spremne za konverzije, sa jasnim putem do proizvoda i jednostavnom kupovinom.',
+          outcomes: ['Struktura proizvoda i kategorija', 'Optimizacija checkout UX-a', 'Podešavanje plaćanja i analitike'],
+        },
+        {
+          title: 'Sadržaj i prodajni copy',
+          description: 'Jasne poruke koje objašnjavaju vrednost ponude i daju posetiocima razlog da naprave sledeći korak.',
+          outcomes: ['Strategija ponude i poruka', 'Copy za landing stranice', 'Pozivi na akciju koji konvertuju'],
+        },
+        {
+          title: 'Održavanje i analitika',
+          description: 'Kontinuirana poboljšanja koja sajt održavaju sigurnim, merljivim i usklađenim sa poslovnim ciljevima.',
+          outcomes: ['Ažuriranja i bezbednosne provere', 'Analitika i praćenje događaja', 'Stalna poboljšanja konverzija'],
         },
       ],
     },
