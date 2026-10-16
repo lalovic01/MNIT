@@ -161,6 +161,91 @@ export default function HomePage() {
           ))}
         </div>
       </AnimatedSection>
+
+      <AnimatedSection className="space-y-6" delay={0.12}>
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <h2 className="font-title text-3xl uppercase tracking-[0.05em] text-foam sm:text-4xl">
+            {content.home.servicesTitle}
+          </h2>
+          <Link
+            to="/services"
+            className="text-xs font-semibold uppercase tracking-[0.14em] text-mint transition hover:text-foam"
+          >
+            {content.home.servicesCta} <span aria-hidden="true">→</span>
+          </Link>
+        </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          {content.services.items.slice(0, 3).map((service, index) => (
+            <MotionArticle
+              key={service.title}
+              className="rounded-2xl border border-foam/20 bg-pine/25 p-6 transition hover:-translate-y-1 hover:border-foam/50"
+              initial={{ opacity: 0, y: 18 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.35 }}
+              transition={{ delay: index * 0.1, duration: 0.45 }}
+            >
+              <p className="text-xs uppercase tracking-[0.16em] text-mint">0{index + 1}</p>
+              <h3 className="mt-3 font-title text-xl uppercase text-foam">{service.title}</h3>
+              <p className="mt-3 text-sm leading-relaxed text-foam/75">{service.description}</p>
+            </MotionArticle>
+          ))}
+        </div>
+      </AnimatedSection>
+
+      <AnimatedSection className="space-y-6" delay={0.12}>
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <h2 className="font-title text-3xl uppercase tracking-[0.05em] text-foam sm:text-4xl">
+            {content.home.workTitle}
+          </h2>
+          <Link
+            to="/portfolio"
+            className="text-xs font-semibold uppercase tracking-[0.14em] text-mint transition hover:text-foam"
+          >
+            {content.home.workCta} <span aria-hidden="true">→</span>
+          </Link>
+        </div>
+        <div className="grid gap-4 md:grid-cols-2">
+          {content.portfolio.projects.slice(0, 2).map((project, index) => (
+            <MotionArticle
+              key={project.name}
+              className="group overflow-hidden rounded-2xl border border-foam/20 bg-ink/50"
+              initial={{ opacity: 0, y: 18 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ delay: index * 0.1, duration: 0.45 }}
+              whileHover={{ y: -5 }}
+            >
+              <img
+                src={project.image}
+                alt={project.name}
+                loading="lazy"
+                className="h-52 w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+              <div className="p-5">
+                <h3 className="font-title text-xl uppercase text-foam">{project.name}</h3>
+                <p className="mt-3 text-sm leading-relaxed text-foam/75">{project.description}</p>
+              </div>
+            </MotionArticle>
+          ))}
+        </div>
+      </AnimatedSection>
+
+      <AnimatedSection delay={0.12}>
+        <section className="relative overflow-hidden rounded-3xl border border-foam/30 bg-foam p-7 text-ink sm:p-10">
+          <div className="relative z-10 max-w-3xl">
+            <h2 className="font-title text-3xl uppercase leading-tight sm:text-4xl">{content.home.contactTitle}</h2>
+            <p className="mt-4 max-w-2xl leading-relaxed text-ink/75">{content.home.contactText}</p>
+            <Link
+              to="/contact"
+              className="mt-7 inline-flex rounded-full bg-ink px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-foam transition hover:-translate-y-0.5 hover:bg-pine"
+            >
+              {content.home.contactCta}
+            </Link>
+          </div>
+          <span aria-hidden="true" className="absolute -right-10 -top-16 h-48 w-48 rounded-full border-[22px] border-mint/30" />
+          <span aria-hidden="true" className="absolute -bottom-24 right-24 h-44 w-44 rounded-full border-[14px] border-pine/15" />
+        </section>
+      </AnimatedSection>
     </div>
   )
 }

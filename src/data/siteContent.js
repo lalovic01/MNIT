@@ -32,6 +32,13 @@ export const siteContent = {
         { value: '3.2x', label: 'Avg. lead growth after redesign' },
       ],
       processTitle: 'How MNIT Works',
+      servicesTitle: 'What I Can Build For You',
+      servicesCta: 'Explore all services',
+      workTitle: 'Selected work',
+      workCta: 'See the full portfolio',
+      contactTitle: 'Ready to turn your next idea into a working website?',
+      contactText: 'Tell me where you are today, what is not working, and what success should look like. You will get a clear next step, not a vague estimate.',
+      contactCta: 'Start a conversation',
       process: [
         {
           title: 'Discover',
@@ -51,6 +58,27 @@ export const siteContent = {
       title: 'About MNIT',
       intro:
         'MNIT is a web developer brand focused on business outcomes, not vanity metrics. Every project is designed to increase trust, improve user flow, and generate measurable leads.',
+      approachTitle: 'A practical approach to better digital products',
+      approachText:
+        'Good websites sit at the intersection of clear thinking, useful design, and reliable technology. I keep the process focused on the people using the website and the business results it needs to support.',
+      principlesTitle: 'What you can expect',
+      principles: [
+        {
+          title: 'Clarity before code',
+          text: 'We first define the audience, offer, and next action so every section has a job to do.',
+        },
+        {
+          title: 'Design with purpose',
+          text: 'Visual choices are made to build trust, make information easier to scan, and remove friction.',
+        },
+        {
+          title: 'Built to keep improving',
+          text: 'The final website is structured for analytics, maintenance, and future growth instead of a one-time launch.',
+        },
+      ],
+      ctaTitle: 'Have a website that should work harder?',
+      ctaText: 'Let us look at the opportunity together and turn your next step into a focused digital plan.',
+      ctaButton: 'Talk about your project',
       blocks: [
         {
           title: 'Who I Am',
@@ -262,6 +290,13 @@ export const siteContent = {
         { value: '3.2x', label: 'Prosečan rast leadova posle redizajna' },
       ],
       processTitle: 'Kako MNIT Radi',
+      servicesTitle: 'Šta mogu da napravim za tebe',
+      servicesCta: 'Pogledaj sve usluge',
+      workTitle: 'Odabrani radovi',
+      workCta: 'Pogledaj ceo portfolio',
+      contactTitle: 'Spreman si da sledeću ideju pretvorimo u pravi sajt?',
+      contactText: 'Pošalji mi gde se trenutno nalaziš, šta ne funkcioniše i kako izgleda uspeh. Dobićeš jasan sledeći korak, bez neodređenih procena.',
+      contactCta: 'Započni razgovor',
       process: [
         {
           title: 'Analiza',
@@ -281,6 +316,27 @@ export const siteContent = {
       title: 'O MNIT brendu',
       intro:
         'MNIT je web developer brend fokusiran na poslovne rezultate, ne na površne metrike. Svaki projekat je osmišljen da poveća poverenje, poboljša korisnički tok i donese merljive upite.',
+      approachTitle: 'Praktičan pristup boljem digitalnom proizvodu',
+      approachText:
+        'Dobar sajt nastaje na preseku jasnog razmišljanja, korisnog dizajna i pouzdane tehnologije. Proces je uvek usmeren na ljude koji koriste sajt i rezultate koje biznis želi da postigne.',
+      principlesTitle: 'Šta možeš da očekuješ',
+      principles: [
+        {
+          title: 'Jasnoća pre koda',
+          text: 'Prvo definišemo publiku, ponudu i sledeću akciju kako bi svaka sekcija imala svoju svrhu.',
+        },
+        {
+          title: 'Dizajn sa razlogom',
+          text: 'Vizuelne odluke grade poverenje, olakšavaju skeniranje sadržaja i uklanjaju nepotrebno trenje.',
+        },
+        {
+          title: 'Spremno za rast',
+          text: 'Sajt je strukturiran za analitiku, održavanje i budući razvoj, a ne samo za jednokratno lansiranje.',
+        },
+      ],
+      ctaTitle: 'Imaš sajt koji treba da radi više?',
+      ctaText: 'Hajde da zajedno sagledamo priliku i sledeći korak pretvorimo u jasan digitalni plan.',
+      ctaButton: 'Razgovarajmo o projektu',
       blocks: [
         {
           title: 'Ko sam ja',
